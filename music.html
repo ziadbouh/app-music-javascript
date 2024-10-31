@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./lecteur-de-musique.png" type="lecteur-de-musique.png">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="cover">
+                <img src="cover-1.png" alt="cover-1.png">
+            </div>
+            <div class="song-info">
+                <h2>Lost in the City Lights</h2>
+                <p>Cosmo Sheldrake</p>
+            </div>
+            <div class="controls">
+                <div class="progress-bar">
+                    <span class="current-time">02:23</span>
+                    <div class="progress">
+                        <div class="progress-filled"></div>
+                    </div>
+                    <span class="duration">03:15</span>
+                </div>
+                <div class="buttons">
+                    <button class="prev">⏮️</button>
+                    <button class="play">⏯️</button>
+                    <button class="next">⏭️</button>
+                </div>
+                <audio src="./forest-lullaby-110624.mp3" id="forest-lullaby-110624.mp3"></audio>
+                <audio src="./lost-in-city-lights-145038.mp3" id="lost-in-city-lights-145038.mp3"></audio>
+        </div>
+    </div>
+   <script src="music.js"></script>
+</body>
+</html>
